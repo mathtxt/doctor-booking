@@ -1,9 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T22:45:22.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.8" etag="COUhsWsDVL48DrFTvqrz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T23:29:34.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4_LVzqOSnW0p0kNQJdOP" version="24.2.8" type="github">
   <diagram name="Página-1" id="tbxsKGqpclj8XcvXtITo">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
+        <object label="" id="0">
+          <mxCell />
+        </object>
         <mxCell id="1" parent="0" />
+        <object label="Catador" Catador="" id="dHHhUOngNxmmZD-m6sLB-10">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="150" y="107" width="41" height="82" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="dHHhUOngNxmmZD-m6sLB-12" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-37" width="38.5" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHhUOngNxmmZD-m6sLB-15" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="253.5" y="50" width="168" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHhUOngNxmmZD-m6sLB-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Reciclar Materiais&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dHHhUOngNxmmZD-m6sLB-15">
+          <mxGeometry x="24" y="65" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHhUOngNxmmZD-m6sLB-21" value="CATAKI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontStyle=1;fontSize=15;" vertex="1" parent="dHHhUOngNxmmZD-m6sLB-15">
+          <mxGeometry x="54" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHhUOngNxmmZD-m6sLB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dHHhUOngNxmmZD-m6sLB-10" target="dHHhUOngNxmmZD-m6sLB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHhUOngNxmmZD-m6sLB-27" value="Empresas" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="159" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHhUOngNxmmZD-m6sLB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHhUOngNxmmZD-m6sLB-27" target="dHHhUOngNxmmZD-m6sLB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHhUOngNxmmZD-m6sLB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.065;entryY=0.283;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dHHhUOngNxmmZD-m6sLB-12" target="dHHhUOngNxmmZD-m6sLB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
